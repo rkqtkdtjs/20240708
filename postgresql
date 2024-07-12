@@ -1,0 +1,19 @@
+
+
+
+/* 결과값에 링크 걸기 */
+'<a href="https://map.naver.com/p/search/' || name || '">' || name || '</a>' as 검색명_링크
+'<a href="/P-..' || id || '..' || mod(id, 7) ||'">' || id || '</a>' as ID
+// How to use an anchor tag (<a>) in HTML. The <a> tag is used to create hyperlinks, which are clickable links that can take you to another page, a different part of the same page, or even trigger some actions like downloading a file or opening an email client.
+// 
+
+/* 위경도 값으로 출발지-도착지 거리 계산하기 */
+earth_distance(ll_to_earth(b.latitude, b.longitude), ll_to_earth(a.latitude, a.longitude)) / 1000) as distance_km,
+
+
+
+
+
+
+
+
